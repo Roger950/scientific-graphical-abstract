@@ -1,0 +1,18 @@
+# Local caches and editor files
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Local scientific inputs and generated artifacts
+work/
+outputs/
+private/
+*.zip
